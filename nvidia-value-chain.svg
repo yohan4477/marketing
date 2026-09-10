@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+  </marker>
+  <style>
+    .title{font:700 36px Arial,sans-serif;fill:#0f172a}
+    .sub{font:400 18px Arial,sans-serif;fill:#475569}
+    .hdr{font:700 20px Arial,sans-serif;fill:#0f172a}
+    .txt{font:400 17px Arial,sans-serif;fill:#1e293b}
+    .small{font:400 14px Arial,sans-serif;fill:#475569}
+    .center{font:700 26px Arial,sans-serif;fill:white}
+    .center2{font:400 17px Arial,sans-serif;fill:white}
+    .confirmed{fill:#f8fafc;stroke:#0f172a;stroke-width:2}
+    .inferred{fill:#fff;stroke:#0f172a;stroke-width:2;stroke-dasharray:10 8}
+    .economic{fill:#f8fafc;stroke:#64748b;stroke-width:2;stroke-dasharray:3 7}
+    .nvidia{fill:#111827;stroke:#111827;stroke-width:2}
+    .arrow{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#arrow)}
+  </style>
+</defs>
+
+<rect width="1600" height="1050" fill="white"/>
+<text x="70" y="70" class="title">NVIDIA AI Infrastructure Value Chain &amp; Customer Concentration</text>
+<text x="70" y="105" class="sub">FY2027 H1 reconstruction | SEC facts separated from mathematical inference and analytical hypotheses</text>
+
+<!-- upstream headers -->
+<text x="90" y="170" class="hdr">Upstream supply</text>
+<text x="590" y="170" class="hdr">NVIDIA</text>
+<text x="930" y="170" class="hdr">Direct-customer fingerprints</text>
+<text x="1320" y="170" class="hdr">Economic demand</text>
+
+<!-- upstream -->
+<rect x="70" y="210" rx="14" ry="14" width="330" height="120" class="confirmed"/>
+<text x="95" y="245" class="hdr">Foundry</text>
+<text x="95" y="278" class="txt">TSMC / Samsung</text>
+<text x="95" y="308" class="small">SEC / supplier disclosure confirmed</text>
+
+<rect x="70" y="355" rx="14" ry="14" width="330" height="120" class="confirmed"/>
+<text x="95" y="390" class="hdr">HBM / memory</text>
+<text x="95" y="423" class="txt">SK hynix / Micron / Samsung</text>
+<text x="95" y="453" class="small">Supplier relationship confirmed</text>
+
+<rect x="70" y="500" rx="14" ry="14" width="330" height="120" class="confirmed"/>
+<text x="95" y="535" class="hdr">Advanced packaging</text>
+<text x="95" y="568" class="txt">CoWoS ecosystem</text>
+<text x="95" y="598" class="small">Technology / capacity dependency</text>
+
+<rect x="70" y="645" rx="14" ry="14" width="330" height="145" class="confirmed"/>
+<text x="95" y="680" class="hdr">Assembly / integration</text>
+<text x="95" y="713" class="txt">Hon Hai / Wistron / Fabrinet</text>
+<text x="95" y="746" class="small">ODMs can assemble for a CSP while</text>
+<text x="95" y="768" class="small">the CSP remains NVIDIA's direct buyer.</text>
+
+<!-- NVIDIA center -->
+<rect x="515" y="285" rx="24" ry="24" width="300" height="350" class="nvidia"/>
+<text x="665" y="350" text-anchor="middle" class="center">NVIDIA</text>
+<text x="665" y="395" text-anchor="middle" class="center2">FY27 H1 revenue: $177.8B</text>
+<text x="665" y="430" text-anchor="middle" class="center2">Q2 revenue: $96.2B</text>
+<text x="665" y="465" text-anchor="middle" class="center2">Q2 GAAP GM: 75.0%</text>
+<text x="665" y="500" text-anchor="middle" class="center2">Supply commitments: $279B</text>
+<line x1="565" y1="535" x2="765" y2="535" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="665" y="575" text-anchor="middle" class="center2">Direct customer ≠ end user</text>
+<text x="665" y="605" text-anchor="middle" class="center2">Geography = direct buyer HQ</text>
+
+<!-- arrows upstream to Nvidia -->
+<path d="M400 270 C455 270 455 360 515 360" class="arrow"/>
+<path d="M400 415 C460 415 460 430 515 430" class="arrow"/>
+<path d="M400 560 C460 560 460 505 515 505" class="arrow"/>
+<path d="M400 715 C455 715 455 575 515 575" class="arrow"/>
+
+<!-- direct customer fingerprints -->
+<rect x="900" y="225" rx="14" ry="14" width="350" height="190" class="inferred"/>
+<text x="925" y="260" class="hdr">D1 fingerprint</text>
+<text x="925" y="295" class="txt">Q1 21% → H1 15%</text>
+<text x="925" y="328" class="txt">Implied Q2 ≈ 9.9%</text>
+<text x="925" y="362" class="small">Hypothesis: Microsoft / Azure</text>
+<text x="925" y="388" class="small">Confidence: ~45% (not SEC-confirmed)</text>
+
+<rect x="900" y="445" rx="14" ry="14" width="350" height="190" class="inferred"/>
+<text x="925" y="480" class="hdr">D2 fingerprint</text>
+<text x="925" y="515" class="txt">Q1 17% → H1 13%</text>
+<text x="925" y="548" class="txt">Implied Q2 ≈ 9.6%</text>
+<text x="925" y="582" class="small">Candidate: Meta / other US CSP</text>
+<text x="925" y="608" class="small">Identity unresolved</text>
+
+<rect x="900" y="665" rx="14" ry="14" width="350" height="190" class="inferred"/>
+<text x="925" y="700" class="hdr">D3 fingerprint</text>
+<text x="925" y="735" class="txt">Q1 16% → H1 16%</text>
+<text x="925" y="768" class="txt">Q2 = 16.0%</text>
+<text x="925" y="802" class="small">Hypothesis: AWS</text>
+<text x="925" y="828" class="small">Confidence: ~50% (not SEC-confirmed)</text>
+
+<!-- arrows NVIDIA to direct -->
+<path d="M815 380 C855 380 855 320 900 320" class="arrow"/>
+<path d="M815 460 C855 460 855 540 900 540" class="arrow"/>
+<path d="M815 540 C855 540 855 760 900 760" class="arrow"/>
+
+<!-- economic demand -->
+<rect x="1310" y="245" rx="14" ry="14" width="235" height="105" class="economic"/>
+<text x="1335" y="283" class="hdr">AI model makers</text>
+<text x="1335" y="318" class="txt">OpenAI / Anthropic / xAI</text>
+
+<rect x="1310" y="390" rx="14" ry="14" width="235" height="105" class="economic"/>
+<text x="1335" y="428" class="hdr">CSP / AI clouds</text>
+<text x="1335" y="463" class="txt">Azure / AWS / others</text>
+
+<rect x="1310" y="535" rx="14" ry="14" width="235" height="105" class="economic"/>
+<text x="1335" y="573" class="hdr">Enterprise</text>
+<text x="1335" y="608" class="txt">Training / inference / RAG</text>
+
+<rect x="1310" y="680" rx="14" ry="14" width="235" height="105" class="economic"/>
+<text x="1335" y="718" class="hdr">Public sector</text>
+<text x="1335" y="753" class="txt">Sovereign / research</text>
+
+<path d="M1250 320 L1310 300" class="arrow"/>
+<path d="M1250 500 L1310 445" class="arrow"/>
+<path d="M1250 585 L1310 585" class="arrow"/>
+<path d="M1250 760 L1310 730" class="arrow"/>
+
+<!-- four layer note -->
+<rect x="470" y="700" rx="14" ry="14" width="360" height="155" class="confirmed"/>
+<text x="495" y="738" class="hdr">Four identities to keep separate</text>
+<text x="495" y="772" class="txt">1. NVIDIA invoice customer</text>
+<text x="495" y="800" class="txt">2. GPU economic owner</text>
+<text x="495" y="828" class="txt">3. ODM / system assembler</text>
+<text x="495" y="856" class="txt">4. Compute consumer</text>
+
+<!-- footer legend -->
+<line x1="70" y1="915" x2="1535" y2="915" stroke="#cbd5e1" stroke-width="1"/>
+<text x="70" y="950" class="hdr">Legend</text>
+<rect x="165" y="932" width="42" height="25" class="confirmed"/>
+<text x="220" y="951" class="small">SEC / official confirmed</text>
+<rect x="425" y="932" width="42" height="25" class="inferred"/>
+<text x="480" y="951" class="small">Mathematical inference / identity hypothesis</text>
+<rect x="850" y="932" width="42" height="25" class="economic"/>
+<text x="905" y="951" class="small">Economic end demand / indirect layer</text>
+<text x="70" y="1002" class="small">Important: D1/D2/D3 continuity and customer identities are analytical reconstructions, not SEC-confirmed labels.</text>
+</svg>
