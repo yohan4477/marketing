@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1040" viewBox="0 0 680 1040">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L7,3 z" fill="#64748b"/>
+  </marker>
+  <style>
+    .t{font:700 14px 'Malgun Gothic',AppleGothic,sans-serif}
+    .s{font:400 12px 'Malgun Gothic',AppleGothic,sans-serif}
+    .bt{font:700 14px 'Malgun Gothic',AppleGothic,sans-serif;text-anchor:middle;dominant-baseline:central}
+    .bs{font:400 12px 'Malgun Gothic',AppleGothic,sans-serif;text-anchor:middle;dominant-baseline:central}
+    .lbl{font:400 12px 'Malgun Gothic',AppleGothic,sans-serif;dominant-baseline:central;fill:#334155}
+    .up{fill:#dbeafe;stroke:#60a5fa;stroke-width:1.5}
+    .up-t{fill:#1e3a8a}
+    .mt{fill:#cffafe;stroke:#22d3ee;stroke-width:1.5}
+    .mt-t{fill:#164e63}
+    .nv{fill:#e2e8f0;stroke:#64748b;stroke-width:1.5}
+    .nv-t{fill:#0f172a}
+    .dc{fill:#fef3c7;stroke:#f59e0b;stroke-width:1.5}
+    .dc-t{fill:#78350f}
+    .ec{fill:#dcfce7;stroke:#4ade80;stroke-width:1.5}
+    .ec-t{fill:#14532d}
+    .id{fill:#ede9fe;stroke:#a78bfa;stroke-width:1.5}
+    .id-t{fill:#4c1d95}
+    .a{stroke:#64748b;stroke-width:1.5;fill:none;marker-end:url(#arrow)}
+    .l{stroke:#64748b;stroke-width:1.5;fill:none}
+  </style>
+</defs>
+<rect width="680" height="1040" fill="#ffffff"/>
+<text x="40" y="30" class="t" fill="#0f172a" dominant-baseline="central">TSMC 밸류체인</text>
+<text x="40" y="52" class="s" fill="#475569" dominant-baseline="central">2025A~2026 | 공급사 %는 TSMC 원가 비중, 고객 %는 TSMC 매출 비중</text>
+<rect x="279" y="76" rx="8" width="122" height="56" class="up"/>
+<text x="340" y="96" class="bt up-t">ZEISS</text>
+<text x="340" y="115" class="bs up-t">ASML 원가 ~28%</text>
+<rect x="52" y="176" rx="8" width="129" height="56" class="up"/>
+<text x="116.5" y="196" class="bt up-t">ASML 리소 92%</text>
+<text x="116.5" y="215" class="bs up-t">TSMC 원가 15.2%</text>
+<rect x="201" y="176" rx="8" width="129" height="56" class="up"/>
+<text x="265.5" y="196" class="bt up-t">AMAT 증착 54%</text>
+<text x="265.5" y="215" class="bs up-t">TSMC 원가 15.1%</text>
+<rect x="350" y="176" rx="8" width="136" height="56" class="up"/>
+<text x="418" y="196" class="bt up-t">Lam 식각 44.5%</text>
+<text x="418" y="215" class="bs up-t">TSMC 원가 8.4%</text>
+<rect x="506" y="176" rx="8" width="122" height="56" class="up"/>
+<text x="567" y="196" class="bt up-t">TEL 도포 92%</text>
+<text x="567" y="215" class="bs up-t">TSMC 원가 5.4%</text>
+<rect x="52.5" y="276" rx="8" width="122" height="56" class="up"/>
+<text x="113.5" y="296" class="bt up-t">KLA 검사 60%</text>
+<text x="113.5" y="315" class="bs up-t">TSMC 매출 10%+</text>
+<rect x="194.5" y="276" rx="8" width="144" height="56" class="up"/>
+<text x="266.5" y="296" class="bt up-t">SCREEN 세정 35%</text>
+<text x="266.5" y="315" class="bs up-t">TEL·Lam과 경쟁</text>
+<rect x="358.5" y="276" rx="8" width="129" height="56" class="up"/>
+<text x="423" y="296" class="bt up-t">Lasertec 50%</text>
+<text x="423" y="315" class="bs up-t">EUV 마스크 검사</text>
+<rect x="507.5" y="276" rx="8" width="120" height="56" class="up"/>
+<text x="567.5" y="296" class="bt up-t">ASM 증착 10%</text>
+<text x="567.5" y="315" class="bs up-t">ALD 경쟁력</text>
+<rect x="59.5" y="376" rx="8" width="128" height="56" class="mt"/>
+<text x="123.5" y="396" class="bt mt-t">실리콘 웨이퍼</text>
+<text x="123.5" y="415" class="bs mt-t">6개사 96.2%</text>
+<rect x="207.5" y="376" rx="8" width="115" height="56" class="mt"/>
+<text x="265" y="396" class="bt mt-t">Entegris</text>
+<text x="265" y="415" class="bs mt-t">매출 16% TSMC</text>
+<rect x="342.5" y="376" rx="8" width="108" height="56" class="mt"/>
+<text x="396.5" y="396" class="bt mt-t">Qnity</text>
+<text x="396.5" y="415" class="bs mt-t">매출 8% TSMC</text>
+<rect x="470.5" y="376" rx="8" width="150" height="56" class="mt"/>
+<text x="545.5" y="396" class="bt mt-t">포토레지스트</text>
+<text x="545.5" y="415" class="bs mt-t">JSR · TOK · 신에츠</text>
+<rect x="49.5" y="476" rx="8" width="144" height="56" class="nv"/>
+<text x="121.5" y="496" class="bt nv-t">TSMC 2026 2분기</text>
+<text x="121.5" y="515" class="bs nv-t">매출 $40.2B</text>
+<rect x="213.5" y="476" rx="8" width="120" height="56" class="nv"/>
+<text x="273.5" y="496" class="bt nv-t">HPC 비중 66%</text>
+<text x="273.5" y="515" class="bs nv-t">AI·HPC 중심</text>
+<rect x="353.5" y="476" rx="8" width="129" height="56" class="nv"/>
+<text x="418" y="496" class="bt nv-t">≤N7 선단 77%</text>
+<text x="418" y="515" class="bs nv-t">N3 30% · N5 33%</text>
+<rect x="502.5" y="476" rx="8" width="128" height="56" class="nv"/>
+<text x="566.5" y="496" class="bt nv-t">2026 설비투자</text>
+<text x="566.5" y="515" class="bs nv-t">$60~64B</text>
+<rect x="60.5" y="576" rx="8" width="122" height="56" class="dc"/>
+<text x="121.5" y="596" class="bt dc-t">NVIDIA 19.0%</text>
+<text x="121.5" y="615" class="bs dc-t">AI GPU · CoWoS</text>
+<rect x="202.5" y="576" rx="8" width="112" height="56" class="dc"/>
+<text x="258.5" y="596" class="bt dc-t">Apple 17.0%</text>
+<text x="258.5" y="615" class="bs dc-t">A · M 시리즈</text>
+<rect x="334.5" y="576" rx="8" width="129" height="56" class="dc"/>
+<text x="399" y="596" class="bt dc-t">AMD ~5.2%</text>
+<text x="399" y="615" class="bs dc-t">EPYC · Instinct</text>
+<rect x="483.5" y="576" rx="8" width="136" height="56" class="dc"/>
+<text x="551.5" y="596" class="bt dc-t">Qualcomm ~5.1%</text>
+<text x="551.5" y="615" class="bs dc-t">Snapdragon SoC</text>
+<rect x="80" y="676" rx="8" width="122" height="56" class="dc"/>
+<text x="141" y="696" class="bt dc-t">Broadcom</text>
+<text x="141" y="715" class="bs dc-t">커스텀 AI ASIC</text>
+<rect x="222" y="676" rx="8" width="122" height="56" class="dc"/>
+<text x="283" y="696" class="bt dc-t">Marvell</text>
+<text x="283" y="715" class="bs dc-t">TSMC 단독 공급</text>
+<rect x="364" y="676" rx="8" width="94" height="56" class="dc"/>
+<text x="411" y="696" class="bt dc-t">MediaTek</text>
+<text x="411" y="715" class="bs dc-t">모바일 SoC</text>
+<rect x="478" y="676" rx="8" width="122" height="56" class="dc"/>
+<text x="539" y="696" class="bt dc-t">AWS · Intel</text>
+<text x="539" y="715" class="bs dc-t">자체 칩 · 외주</text>
+<rect x="72.5" y="776" rx="8" width="136" height="56" class="ec"/>
+<text x="140.5" y="796" class="bt ec-t">하이퍼스케일러</text>
+<text x="140.5" y="815" class="bs ec-t">MS · Meta · AWS</text>
+<rect x="228.5" y="776" rx="8" width="115" height="56" class="ec"/>
+<text x="286" y="796" class="bt ec-t">기기 OEM</text>
+<text x="286" y="815" class="bs ec-t">스마트폰 · PC</text>
+<rect x="363.5" y="776" rx="8" width="112" height="56" class="ec"/>
+<text x="419.5" y="796" class="bt ec-t">AI 클라우드</text>
+<text x="419.5" y="815" class="bs ec-t">CoreWeave 등</text>
+<rect x="495.5" y="776" rx="8" width="112" height="56" class="ec"/>
+<text x="551.5" y="796" class="bt ec-t">기업 · 공공</text>
+<text x="551.5" y="815" class="bs ec-t">학습 · 추론</text>
+<rect x="89" y="876" rx="8" width="115" height="56" class="id"/>
+<text x="146.5" y="896" class="bt id-t">1 리소</text>
+<text x="146.5" y="915" class="bs id-t">ASML EUV 100%</text>
+<rect x="224" y="876" rx="8" width="104" height="56" class="id"/>
+<text x="276" y="896" class="bt id-t">2 파운드리</text>
+<text x="276" y="915" class="bs id-t">TSMC 선단</text>
+<rect x="348" y="876" rx="8" width="108" height="56" class="id"/>
+<text x="402" y="896" class="bt id-t">3 패키징</text>
+<text x="402" y="915" class="bs id-t">CoWoS · SoIC</text>
+<rect x="476" y="876" rx="8" width="115" height="56" class="id"/>
+<text x="533.5" y="896" class="bt id-t">4 가속기</text>
+<text x="533.5" y="915" class="bs id-t">NVIDIA · ASIC</text>
+<path d="M340 132 L340 152 M116.5 152 L340 152" class="l"/>
+<path d="M116.5 152 L116.5 176" class="a"/>
+<path d="M123.5 432 L123.5 452 M265 432 L265 452 M396.5 432 L396.5 452 M545.5 432 L545.5 452 M121.5 452 L566.5 452" class="l"/>
+<path d="M121.5 452 L121.5 476" class="a"/>
+<path d="M273.5 452 L273.5 476" class="a"/>
+<path d="M418 452 L418 476" class="a"/>
+<path d="M566.5 452 L566.5 476" class="a"/>
+<path d="M628 204 L636 204" class="l"/>
+<path d="M627.5 304 L636 304" class="l"/>
+<path d="M620.5 404 L636 404" class="l"/>
+<path d="M636 204 L636 452 L121.5 452" class="l"/>
+<path d="M121.5 532 L121.5 552 M273.5 532 L273.5 552 M418 532 L418 552 M566.5 532 L566.5 552 M121.5 552 L566.5 552" class="l"/>
+<path d="M121.5 552 L121.5 576" class="a"/>
+<path d="M258.5 552 L258.5 576" class="a"/>
+<path d="M399 552 L399 576" class="a"/>
+<path d="M551.5 552 L551.5 576" class="a"/>
+<path d="M636 552 L636 652 L141 652" class="l"/>
+<path d="M141 652 L141 676" class="a"/>
+<path d="M283 652 L283 676" class="a"/>
+<path d="M411 652 L411 676" class="a"/>
+<path d="M539 652 L539 676" class="a"/>
+<path d="M141 732 L141 752 M283 732 L283 752 M411 732 L411 752 M539 732 L539 752 M140.5 752 L551.5 752" class="l"/>
+<path d="M140.5 752 L140.5 776" class="a"/>
+<path d="M286 752 L286 776" class="a"/>
+<path d="M419.5 752 L419.5 776" class="a"/>
+<path d="M551.5 752 L551.5 776" class="a"/>
+<line x1="40" y1="952" x2="640" y2="952" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="40" y="963" width="14" height="14" class="up"/>
+<text x="60" y="970" class="lbl">장비</text>
+<rect x="130" y="963" width="14" height="14" class="mt"/>
+<text x="150" y="970" class="lbl">소재 · 웨이퍼</text>
+<rect x="290" y="963" width="14" height="14" class="nv"/>
+<text x="310" y="970" class="lbl">TSMC</text>
+<rect x="380" y="963" width="14" height="14" class="dc"/>
+<text x="400" y="970" class="lbl">고객</text>
+<rect x="40" y="987" width="14" height="14" class="ec"/>
+<text x="60" y="994" class="lbl">최종 수요</text>
+<rect x="170" y="987" width="14" height="14" class="id"/>
+<text x="190" y="994" class="lbl">핵심 병목</text>
+<text x="40" y="1020" class="lbl">공정 점유율은 2023 글로벌 시장 기준이며 TSMC 조달 비중이 아니다.</text>
+</svg>
