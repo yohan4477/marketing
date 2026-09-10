@@ -4,11 +4,11 @@
     <path d="M0,0 L0,6 L7,3 z" fill="#64748b"/>
   </marker>
   <style>
-    .t{font:700 14px Arial,sans-serif}
-    .s{font:400 12px Arial,sans-serif}
-    .bt{font:700 14px Arial,sans-serif;text-anchor:middle;dominant-baseline:central}
-    .bs{font:400 12px Arial,sans-serif;text-anchor:middle;dominant-baseline:central}
-    .lbl{font:400 12px Arial,sans-serif;dominant-baseline:central;fill:#334155}
+    .t{font:700 14px 'Malgun Gothic',AppleGothic,sans-serif}
+    .s{font:400 12px 'Malgun Gothic',AppleGothic,sans-serif}
+    .bt{font:700 14px 'Malgun Gothic',AppleGothic,sans-serif;text-anchor:middle;dominant-baseline:central}
+    .bs{font:400 12px 'Malgun Gothic',AppleGothic,sans-serif;text-anchor:middle;dominant-baseline:central}
+    .lbl{font:400 12px 'Malgun Gothic',AppleGothic,sans-serif;dominant-baseline:central;fill:#334155}
     .up{fill:#dbeafe;stroke:#60a5fa;stroke-width:1.5}
     .up-t{fill:#1e3a8a}
     .nv{fill:#e2e8f0;stroke:#64748b;stroke-width:1.5}
@@ -26,105 +26,105 @@
 
 <rect width="680" height="620" fill="#ffffff"/>
 
-<text x="40" y="30" class="t" fill="#0f172a" dominant-baseline="central">NVIDIA AI Infrastructure Value Chain</text>
-<text x="40" y="52" class="s" fill="#475569" dominant-baseline="central">FY2027 H1 | SEC facts separated from mathematical inference</text>
+<text x="40" y="30" class="t" fill="#0f172a" dominant-baseline="central">NVIDIA AI 인프라 가치사슬</text>
+<text x="40" y="52" class="s" fill="#475569" dominant-baseline="central">FY2027 상반기 | SEC 확인 사실과 수학적 추론을 분리</text>
 
 <!-- row 1: upstream supply (blue) y 76-132 -->
-<rect x="40"  y="76" rx="8" width="122" height="56" class="up"/>
-<text x="101"   y="96"  class="bt up-t">Foundry</text>
-<text x="101"   y="115" class="bs up-t">TSMC · Samsung</text>
-<rect x="183" y="76" rx="8" width="143" height="56" class="up"/>
-<text x="254.5" y="96"  class="bt up-t">HBM memory</text>
-<text x="254.5" y="115" class="bs up-t">SK hynix · Micron</text>
-<rect x="347" y="76" rx="8" width="129" height="56" class="up"/>
-<text x="411.5" y="96"  class="bt up-t">Packaging</text>
-<text x="411.5" y="115" class="bs up-t">CoWoS ecosystem</text>
+<rect x="40" y="76" rx="8" width="122" height="56" class="up"/>
+<text x="101" y="96" class="bt up-t">파운드리</text>
+<text x="101" y="115" class="bs up-t">TSMC · Samsung</text>
+<rect x="188" y="76" rx="8" width="143" height="56" class="up"/>
+<text x="259.5" y="96" class="bt up-t">HBM 메모리</text>
+<text x="259.5" y="115" class="bs up-t">SK hynix · Micron</text>
+<rect x="358" y="76" rx="8" width="112" height="56" class="up"/>
+<text x="414" y="96" class="bt up-t">첨단 패키징</text>
+<text x="414" y="115" class="bs up-t">CoWoS 생태계</text>
 <rect x="497" y="76" rx="8" width="143" height="56" class="up"/>
-<text x="568.5" y="96"  class="bt up-t">Assembly</text>
+<text x="568.5" y="96" class="bt up-t">조립 · 통합</text>
 <text x="568.5" y="115" class="bs up-t">Hon Hai · Wistron</text>
 
 <!-- bus 1: upstream -> NVIDIA (L route) -->
-<path d="M101 132 L101 152 L568.5 152 M254.5 132 L254.5 152 M411.5 132 L411.5 152 M568.5 132 L568.5 152" class="l"/>
-<path d="M138 152 L138 176" class="a"/>
+<path d="M101 132 L101 152 L568.5 152 M259.5 132 L259.5 152 M414 132 L414 152 M568.5 132 L568.5 152" class="l"/>
+<path d="M154 152 L154 176" class="a"/>
 
 <!-- row 2: NVIDIA (slate) y 176-232 -->
-<rect x="70"  y="176" rx="8" width="136" height="56" class="nv"/>
-<text x="138" y="196" class="bt nv-t">NVIDIA FY27 H1</text>
-<text x="138" y="215" class="bs nv-t">$177.8B revenue</text>
-<rect x="226" y="176" rx="8" width="104" height="56" class="nv"/>
-<text x="278" y="196" class="bt nv-t">Q2 revenue</text>
-<text x="278" y="215" class="bs nv-t">$96.2B</text>
-<rect x="350" y="176" rx="8" width="112" height="56" class="nv"/>
-<text x="406" y="196" class="bt nv-t">GAAP margin</text>
-<text x="406" y="215" class="bs nv-t">75.0%</text>
-<rect x="482" y="176" rx="8" width="128" height="56" class="nv"/>
-<text x="546" y="196" class="bt nv-t">Supply commit</text>
-<text x="546" y="215" class="bs nv-t">$279B</text>
-<path d="M206 204 L226 204 M330 204 L350 204 M462 204 L482 204" class="l"/>
+<rect x="70" y="176" rx="8" width="168" height="56" class="nv"/>
+<text x="154" y="196" class="bt nv-t">NVIDIA FY27 상반기</text>
+<text x="154" y="215" class="bs nv-t">매출 $177.8B</text>
+<rect x="258" y="176" rx="8" width="104" height="56" class="nv"/>
+<text x="310" y="196" class="bt nv-t">2분기 매출</text>
+<text x="310" y="215" class="bs nv-t">$96.2B</text>
+<rect x="382" y="176" rx="8" width="112" height="56" class="nv"/>
+<text x="438" y="196" class="bt nv-t">GAAP 이익률</text>
+<text x="438" y="215" class="bs nv-t">75.0%</text>
+<rect x="514" y="176" rx="8" width="96" height="56" class="nv"/>
+<text x="562" y="196" class="bt nv-t">공급 약정</text>
+<text x="562" y="215" class="bs nv-t">$279B</text>
+<path d="M238 204 L258 204 M362 204 L382 204 M494 204 L514 204" class="l"/>
 
 <!-- bus 2: NVIDIA -> direct customers (L route) -->
-<path d="M138 232 L138 252 L548 252" class="l"/>
-<path d="M152 252 L152 276" class="a"/>
-<path d="M360.5 252 L360.5 276" class="a"/>
-<path d="M548 252 L548 276" class="a"/>
+<path d="M154 232 L154 252 L503 252" class="l"/>
+<path d="M188 252 L188 276" class="a"/>
+<path d="M351 252 L351 276" class="a"/>
+<path d="M503 252 L503 276" class="a"/>
 
 <!-- row 3: direct-customer fingerprints (amber) y 276-332 -->
-<rect x="56"  y="276" rx="8" width="192" height="56" class="dc"/>
-<text x="152"   y="296" class="bt dc-t">D1 implied 9.9%</text>
-<text x="152"   y="315" class="bs dc-t">Hypothesis Microsoft 45%</text>
-<rect x="268" y="276" rx="8" width="185" height="56" class="dc"/>
-<text x="360.5" y="296" class="bt dc-t">D2 implied 9.6%</text>
-<text x="360.5" y="315" class="bs dc-t">Candidate Meta / US CSP</text>
-<rect x="473" y="276" rx="8" width="150" height="56" class="dc"/>
-<text x="548"   y="296" class="bt dc-t">D3 actual 16.0%</text>
-<text x="548"   y="315" class="bs dc-t">Hypothesis AWS 50%</text>
+<rect x="113" y="276" rx="8" width="150" height="56" class="dc"/>
+<text x="188" y="296" class="bt dc-t">D1 추정 9.9%</text>
+<text x="188" y="315" class="bs dc-t">Microsoft 가설 45%</text>
+<rect x="283" y="276" rx="8" width="136" height="56" class="dc"/>
+<text x="351" y="296" class="bt dc-t">D2 추정 9.6%</text>
+<text x="351" y="315" class="bs dc-t">Meta 등 미국 CSP</text>
+<rect x="439" y="276" rx="8" width="128" height="56" class="dc"/>
+<text x="503" y="296" class="bt dc-t">D3 실제 16.0%</text>
+<text x="503" y="315" class="bs dc-t">AWS 가설 50%</text>
 
 <!-- bus 3: direct customers -> economic demand (L route) -->
-<path d="M152 332 L152 352 M360.5 332 L360.5 352 M548 332 L548 352 M133 352 L558 352" class="l"/>
-<path d="M133 352 L133 376" class="a"/>
-<path d="M280 352 L280 376" class="a"/>
-<path d="M413 352 L413 376" class="a"/>
-<path d="M558 352 L558 376" class="a"/>
+<path d="M188 332 L188 352 M351 332 L351 352 M503 332 L503 352 M151 352 L555 352" class="l"/>
+<path d="M151 352 L151 376" class="a"/>
+<path d="M306 352 L306 376" class="a"/>
+<path d="M436.5 352 L436.5 376" class="a"/>
+<path d="M555 352 L555 376" class="a"/>
 
 <!-- row 4: economic end demand (green) y 376-432 -->
-<rect x="58"  y="376" rx="8" width="150" height="56" class="ec"/>
-<text x="133" y="396" class="bt ec-t">AI model makers</text>
-<text x="133" y="415" class="bs ec-t">OpenAI · Anthropic</text>
-<rect x="228" y="376" rx="8" width="104" height="56" class="ec"/>
-<text x="280" y="396" class="bt ec-t">CSP clouds</text>
-<text x="280" y="415" class="bs ec-t">Azure · AWS</text>
-<rect x="352" y="376" rx="8" width="122" height="56" class="ec"/>
-<text x="413" y="396" class="bt ec-t">Enterprise</text>
-<text x="413" y="415" class="bs ec-t">Training · RAG</text>
-<rect x="494" y="376" rx="8" width="128" height="56" class="ec"/>
-<text x="558" y="396" class="bt ec-t">Public sector</text>
-<text x="558" y="415" class="bs ec-t">Sovereign AI</text>
+<rect x="76" y="376" rx="8" width="150" height="56" class="ec"/>
+<text x="151" y="396" class="bt ec-t">AI 모델 개발사</text>
+<text x="151" y="415" class="bs ec-t">OpenAI · Anthropic</text>
+<rect x="246" y="376" rx="8" width="120" height="56" class="ec"/>
+<text x="306" y="396" class="bt ec-t">CSP 클라우드</text>
+<text x="306" y="415" class="bs ec-t">Azure · AWS</text>
+<rect x="386" y="376" rx="8" width="101" height="56" class="ec"/>
+<text x="436.5" y="396" class="bt ec-t">기업</text>
+<text x="436.5" y="415" class="bs ec-t">학습 · 추론</text>
+<rect x="507" y="376" rx="8" width="96" height="56" class="ec"/>
+<text x="555" y="396" class="bt ec-t">공공 부문</text>
+<text x="555" y="415" class="bs ec-t">국가 AI</text>
 
 <!-- row 5: identity layers (purple) y 456-512 -->
-<rect x="101" y="456" rx="8" width="108" height="56" class="id"/>
-<text x="155"   y="476" class="bt id-t">1 Invoice</text>
-<text x="155"   y="495" class="bs id-t">Direct buyer</text>
-<rect x="229" y="456" rx="8" width="115" height="56" class="id"/>
-<text x="286.5" y="476" class="bt id-t">2 Owner</text>
-<text x="286.5" y="495" class="bs id-t">GPU economics</text>
-<rect x="364" y="456" rx="8" width="87" height="56" class="id"/>
-<text x="407.5" y="476" class="bt id-t">3 ODM</text>
-<text x="407.5" y="495" class="bs id-t">Assembler</text>
-<rect x="471" y="456" rx="8" width="108" height="56" class="id"/>
-<text x="525"   y="476" class="bt id-t">4 Consumer</text>
-<text x="525"   y="495" class="bs id-t">Compute user</text>
+<rect x="125" y="456" rx="8" width="101" height="56" class="id"/>
+<text x="175.5" y="476" class="bt id-t">1 청구</text>
+<text x="175.5" y="495" class="bs id-t">직접 구매자</text>
+<rect x="246" y="456" rx="8" width="101" height="56" class="id"/>
+<text x="296.5" y="476" class="bt id-t">2 소유</text>
+<text x="296.5" y="495" class="bs id-t">경제적 부담</text>
+<rect x="367" y="456" rx="8" width="66" height="56" class="id"/>
+<text x="400" y="476" class="bt id-t">3 ODM</text>
+<text x="400" y="495" class="bs id-t">조립사</text>
+<rect x="453" y="456" rx="8" width="101" height="56" class="id"/>
+<text x="503.5" y="476" class="bt id-t">4 사용</text>
+<text x="503.5" y="495" class="bs id-t">컴퓨트 소비</text>
 
 <!-- legend -->
 <line x1="40" y1="530" x2="640" y2="530" stroke="#cbd5e1" stroke-width="1"/>
-<rect x="40"  y="541" width="14" height="14" class="up"/>
-<text x="60"  y="548" class="lbl">Upstream supply</text>
-<rect x="190" y="541" width="14" height="14" class="nv"/>
-<text x="210" y="548" class="lbl">NVIDIA</text>
-<rect x="300" y="541" width="14" height="14" class="dc"/>
-<text x="320" y="548" class="lbl">Direct-customer inference</text>
-<rect x="40"  y="565" width="14" height="14" class="ec"/>
-<text x="60"  y="572" class="lbl">Economic end demand</text>
-<rect x="240" y="565" width="14" height="14" class="id"/>
-<text x="260" y="572" class="lbl">Identity layers to keep separate</text>
-<text x="40"  y="598" class="lbl">D1/D2/D3 continuity and identities are analytical reconstructions, not SEC labels.</text>
+<rect x="40" y="541" width="14" height="14" class="up"/>
+<text x="60" y="548" class="lbl">업스트림 공급</text>
+<rect x="160" y="541" width="14" height="14" class="nv"/>
+<text x="180" y="548" class="lbl">NVIDIA</text>
+<rect x="250" y="541" width="14" height="14" class="dc"/>
+<text x="270" y="548" class="lbl">직접고객 추론</text>
+<rect x="40" y="565" width="14" height="14" class="ec"/>
+<text x="60" y="572" class="lbl">경제적 최종 수요</text>
+<rect x="200" y="565" width="14" height="14" class="id"/>
+<text x="220" y="572" class="lbl">구분해야 할 정체 계층</text>
+<text x="40" y="598" class="lbl">D1/D2/D3 연속성과 정체는 분석적 재구성이며 SEC 공시 라벨이 아니다.</text>
 </svg>

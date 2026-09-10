@@ -1,415 +1,415 @@
-# NVIDIA Customer Concentration Analysis
+# NVIDIA 고객 집중도 분석
 
-## Executive summary
+## 요약
 
-NVIDIA discloses customer concentration, but it does **not** name its largest direct customers in current filings. The useful approach is therefore to separate four evidence levels:
+NVIDIA는 고객 집중도를 공시하지만 현재 제출 서류에서 최대 직접고객의 이름은 **밝히지 않는다**. 따라서 유용한 접근법은 근거를 네 단계로 분리하는 것이다.
 
-1. **SEC confirmed** — explicit NVIDIA or counterparty filing facts.
-2. **Official disclosure** — company press releases, product pages, and deployment announcements.
-3. **Mathematical inference** — arithmetic derived from disclosed revenue and concentration percentages.
-4. **Analytical hypothesis** — mapping anonymous concentration fingerprints to likely customers such as Microsoft or AWS.
+1. **SEC 확인** — NVIDIA 또는 거래상대방의 명시적 공시 사실.
+2. **공식 발표** — 기업 보도자료, 제품 페이지, 배치 발표.
+3. **수학적 추론** — 공시된 매출과 집중도 비율에서 도출한 산술.
+4. **분석적 가설** — 익명 집중도 지문을 Microsoft나 AWS 같은 유력 고객에 대응시키는 작업.
 
-The core FY2027 H1 reconstruction is:
+FY2027 상반기 핵심 재구성은 다음과 같다.
 
-- Q1 revenue: **$81.615B**
-- Q2 revenue: **$96.221B**
-- H1 revenue: **$177.837B**
-- Q1 top direct customers: **21%, 17%, 16%**
-- Q2: only one direct customer was at or above 10%, at **16%**
-- H1 top direct customers: **16%, 15%, 13%**
+- 1분기 매출: **$81.615B**
+- 2분기 매출: **$96.221B**
+- 상반기 매출: **$177.837B**
+- 1분기 상위 직접고객: **21%, 17%, 16%**
+- 2분기: 10% 이상 직접고객은 단 하나, **16%**
+- 상반기 상위 직접고객: **16%, 15%, 13%**
 
-If the same three economic/direct-customer fingerprints persist across the half, the only clean mapping consistent with Q2 having a single >=10% customer is:
+동일한 경제적/직접고객 지문 3개가 반기 내내 유지된다면, 2분기에 10% 이상 고객이 하나뿐이라는 조건과 맞아떨어지는 깔끔한 대응은 하나뿐이다.
 
-| Fingerprint | Q1 | H1 | Implied Q2 | Working identity |
+| 지문 | 1분기 | 상반기 | 추정 2분기 | 잠정 정체 |
 |---|---:|---:|---:|---|
-| D1 | 21% | 15% | ~9.9% | Microsoft / Azure hypothesis (~45%) |
-| D2 | 17% | 13% | ~9.6% | Meta / another US CSP, unresolved |
-| D3 | 16% | 16% | 16.0% | AWS hypothesis (~50%) |
+| D1 | 21% | 15% | ~9.9% | Microsoft / Azure 가설 (~45%) |
+| D2 | 17% | 13% | ~9.6% | Meta 또는 다른 미국 CSP, 미확정 |
+| D3 | 16% | 16% | 16.0% | AWS 가설 (~50%) |
 
-This continuity is **not SEC-confirmed**. NVIDIA has explicitly warned in prior filings that letter labels such as Customer A/B/C may refer to different customers across periods.
+이 연속성은 **SEC가 확인해 준 것이 아니다**. NVIDIA는 이전 제출 서류에서 Customer A/B/C 같은 문자 표기가 기간마다 다른 고객을 가리킬 수 있다고 명시적으로 경고했다.
 
 ---
 
-## 1. What NVIDIA actually discloses
+## 1. NVIDIA가 실제로 공시하는 것
 
-### SEC confirmed
+### SEC 확인
 
-NVIDIA's direct-customer universe includes:
-- add-in-board partners and distributors,
-- ODMs and OEMs,
-- cloud service providers,
-- AI model makers,
-- system integrators.
+NVIDIA의 직접고객 범위에는 다음이 포함된다.
+- 애드인보드 파트너와 유통사
+- ODM과 OEM
+- 클라우드 서비스 사업자
+- AI 모델 개발사
+- 시스템 통합업체
 
-NVIDIA also states that certain direct customers may use internal resources or third-party system integrators to complete a build.
+NVIDIA는 또한 일부 직접고객이 내부 자원이나 제3자 시스템 통합업체를 써서 빌드를 완성할 수 있다고 밝힌다.
 
-This matters because a server can be physically assembled by Foxconn or Quanta while the invoice customer remains a US hyperscaler. Conversely, if the ODM owns the purchase order, NVIDIA may book the direct customer to Taiwan.
+이 대목이 중요하다. 서버를 물리적으로 조립하는 쪽은 Foxconn이나 Quanta인데 청구서상 고객은 미국 하이퍼스케일러일 수 있기 때문이다. 반대로 ODM이 발주서를 보유하면 NVIDIA는 직접고객을 대만으로 잡을 수 있다.
 
-NVIDIA geography is based on the **headquarters of the direct customer**, and this can differ from the final end customer or shipping destination.
+NVIDIA의 지역 구분 기준은 **직접고객의 본사 소재지**이며, 이는 최종 고객이나 배송지와 다를 수 있다.
 
-### Source
-- NVIDIA FY27 Q2 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
-- NVIDIA FY27 Q1 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
+### 출처
+- NVIDIA FY27 2분기 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+- NVIDIA FY27 1분기 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm
 - NVIDIA FY26 10-K: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
 
 ---
 
-## 2. FY27 customer-concentration math
+## 2. FY27 고객 집중도 계산
 
-### SEC confirmed
+### SEC 확인
 
-Revenue:
-- Q1 FY27: **$81.615B**
-- Q2 FY27: **$96.221B**
-- H1 FY27: **$177.837B**
+매출:
+- FY27 1분기: **$81.615B**
+- FY27 2분기: **$96.221B**
+- FY27 상반기: **$177.837B**
 
-Customer concentration:
-- Q1: **21%, 17%, 16%**
-- Q2: **one direct customer at 16%**
-- H1: **16%, 15%, 13%**
+고객 집중도:
+- 1분기: **21%, 17%, 16%**
+- 2분기: **직접고객 1곳이 16%**
+- 상반기: **16%, 15%, 13%**
 
-### Mathematical inference
+### 수학적 추론
 
-Q1 anonymous-customer revenue equivalents:
+1분기 익명 고객의 매출 환산액:
 - 21% = **~$17.14B**
 - 17% = **~$13.87B**
 - 16% = **~$13.06B**
 
-Assuming continuity of the three largest fingerprints across H1:
+상위 3개 지문이 상반기 내내 이어진다고 가정하면:
 
 **D1**
-- Q1: 21% × $81.615B = **~$17.14B**
-- H1: 15% × $177.837B = **~$26.68B**
-- implied Q2 = ~$9.54B = **~9.9% of Q2**
+- 1분기: 21% × $81.615B = **~$17.14B**
+- 상반기: 15% × $177.837B = **~$26.68B**
+- 추정 2분기 = ~$9.54B = **2분기의 ~9.9%**
 
 **D2**
-- Q1: 17% × $81.615B = **~$13.87B**
-- H1: 13% × $177.837B = **~$23.12B**
-- implied Q2 = ~$9.24B = **~9.6% of Q2**
+- 1분기: 17% × $81.615B = **~$13.87B**
+- 상반기: 13% × $177.837B = **~$23.12B**
+- 추정 2분기 = ~$9.24B = **2분기의 ~9.6%**
 
 **D3**
-- Q1: 16% × $81.615B = **~$13.06B**
-- H1: 16% × $177.837B = **~$28.45B**
-- implied Q2 = ~$15.40B = **16.0% of Q2**
+- 1분기: 16% × $81.615B = **~$13.06B**
+- 상반기: 16% × $177.837B = **~$28.45B**
+- 추정 2분기 = ~$15.40B = **2분기의 16.0%**
 
-This is the unique clean permutation that leaves only one Q2 customer above the SEC's 10% disclosure threshold.
+이것이 2분기에 SEC 공시 기준선 10%를 넘는 고객을 하나만 남기는 유일하게 깔끔한 조합이다.
 
-### Caveat
+### 주의
 
-Do not reuse NVIDIA's own Customer A/B/C letters across periods as persistent identifiers. NVIDIA has explicitly disclosed that letter references may represent different customers than in prior periods.
+NVIDIA가 쓰는 Customer A/B/C 문자를 기간을 넘나드는 고정 식별자로 재사용하면 안 된다. NVIDIA는 문자 표기가 이전 기간과 다른 고객을 뜻할 수 있다고 명시적으로 공시했다.
 
-Examples:
-- FY2025 Q3 customer note: https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/R21.htm
-- FY2026 Q3 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm
+사례:
+- FY2025 3분기 고객 주석: https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/R21.htm
+- FY2026 3분기 10-Q: https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm
 
-Therefore D1/D2/D3 are our own analytical fingerprints, not NVIDIA labels.
+따라서 D1/D2/D3은 NVIDIA의 표기가 아니라 우리가 만든 분석용 지문이다.
 
 ---
 
-## 3. Geography elimination logic
+## 3. 지역 소거 논리
 
-### SEC confirmed
+### SEC 확인
 
-Q1 FY27 geography:
-- US: **$63.769B**
-- Taiwan: **$12.006B**
-- China/HK: **$4.550B**
-- Other: **$1.290B**
+FY27 1분기 지역별:
+- 미국: **$63.769B**
+- 대만: **$12.006B**
+- 중국/홍콩: **$4.550B**
+- 기타: **$1.290B**
 
-Source:
+출처:
 https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/R20.htm
 
-### Mathematical inference
+### 수학적 추론
 
-Each Q1 top-customer amount:
+1분기 상위 고객별 금액:
 - D1 ~ $17.14B
 - D2 ~ $13.87B
 - D3 ~ $13.06B
 
-Each exceeds **all Q1 Taiwan-headquartered revenue of $12.006B**.
+각각이 **1분기 대만 본사 고객 매출 전체인 $12.006B를 넘는다**.
 
-Therefore none of the three largest Q1 direct customers can individually be a Taiwan-headquartered customer if the concentration amount and geographic classification refer to the same booking basis. China/HK and Other are even smaller.
+따라서 집중도 금액과 지역 분류가 같은 계상 기준을 따른다면, 1분기 최대 직접고객 3곳 중 어느 하나도 단독으로 대만 본사 고객일 수 없다. 중국/홍콩과 기타는 규모가 더 작다.
 
-The strongest geography conclusion is that the Q1 top-three direct customers were overwhelmingly likely to be **US-headquartered direct customers**.
+지역 관련해 가장 단단한 결론은, 1분기 상위 3개 직접고객이 **미국에 본사를 둔 직접고객**이었을 가능성이 압도적으로 높다는 것이다.
 
-### Q2 route shift
+### 2분기 경로 변화
 
-Q2 geography:
-- US: **$60.074B**
-- Taiwan: **$26.985B**
-- China/HK: **$7.880B**
-- Other: **$1.282B**
+2분기 지역별:
+- 미국: **$60.074B**
+- 대만: **$26.985B**
+- 중국/홍콩: **$7.880B**
+- 기타: **$1.282B**
 
-Taiwan therefore rose by roughly **$14.98B q/q**, while total company revenue rose by roughly **$14.61B**, and US revenue declined.
+대만이 전분기 대비 약 **$14.98B** 늘었고, 전사 매출 증가분은 약 **$14.61B**였으며, 미국 매출은 감소했다.
 
-Interpretation: Q2 may have included a substantial booking/procurement-route shift toward Taiwan-headquartered direct customers or ODM entities, even while the economic end demand remained heavily US-driven.
+해석: 2분기에는 경제적 최종 수요가 여전히 미국 중심이었더라도, 계상/조달 경로가 대만 본사 직접고객이나 ODM 법인 쪽으로 크게 이동했을 수 있다.
 
-This is an **interpretation**, not a disclosed causal explanation.
+이것은 공시된 인과 설명이 아니라 **해석**이다.
 
 ---
 
-## 4. Accounts receivable cross-check
+## 4. 매출채권 교차 검증
 
-### SEC confirmed
+### SEC 확인
 
-Q1 total AR: **$40.710B**
+1분기 총 매출채권: **$40.710B**
 
-Largest direct customers represented:
+최대 직접고객 비중:
 - 30%
 - 18%
 - 16%
 
-Approximate AR equivalents:
+매출채권 환산 근사치:
 - ~$12.21B
 - ~$7.33B
 - ~$6.51B
 
-Q2 total AR: **$63.059B**, up roughly **55% q/q**.
+2분기 총 매출채권: **$63.059B**, 전분기 대비 약 **55%** 증가.
 
-Top five direct customers represented:
+상위 5개 직접고객 비중:
 - 22%
 - 14%
 - 13%
 - 11%
 - 10%
 
-Approximate AR equivalents:
+매출채권 환산 근사치:
 - ~$13.87B
 - ~$8.83B
 - ~$8.20B
 - ~$6.94B
 - ~$6.31B
 
-Top five combined = **70% of AR**.
+상위 5곳 합계 = **매출채권의 70%**.
 
-Source:
+출처:
 https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/R14.htm
 
-### Interpretation
+### 해석
 
-AR grew much faster than revenue. That is consistent with a heavier late-quarter shipment or acceptance mix, though it does not prove one.
+매출채권이 매출보다 훨씬 빠르게 늘었다. 분기 후반 출하나 검수 비중이 컸다는 설명과 맞아떨어지지만, 그것을 증명하지는 않는다.
 
-Do **not** mechanically map revenue rank to AR rank. Billing timing, shipment timing, payment terms, and acceptance all distort the ranking.
+매출 순위를 매출채권 순위에 기계적으로 대응시키면 **안 된다**. 청구 시점, 출하 시점, 결제 조건, 검수가 모두 순위를 왜곡한다.
 
 ---
 
-## 5. Candidate: Microsoft
+## 5. 후보: Microsoft
 
-### Counterparty SEC evidence
+### 거래상대방 SEC 근거
 
-Microsoft disclosed:
-- servers/network/software gross PP&E of **$190.883B** at Mar. 31, 2026 vs **$171.351B** at Dec. 31, 2025
-- **+$19.532B q/q**
-- at Jun. 30, 2026, servers/network/software gross PP&E of **$215.874B**
-- PP&E purchases remaining in accounts payable:
-  - Mar. 31, 2026: **$22.6B**
-  - Jun. 30, 2026: **$26.7B**
-- Jun. 30 commitments of **$34.6B** for construction/building improvements/leaseholds, primarily datacenters
+Microsoft 공시:
+- 서버/네트워크/소프트웨어 총 유형자산 2026년 3월 31일 **$190.883B**, 2025년 12월 31일 **$171.351B**
+- 전분기 대비 **+$19.532B**
+- 2026년 6월 30일 서버/네트워크/소프트웨어 총 유형자산 **$215.874B**
+- 매입채무에 남아 있는 유형자산 매입액:
+  - 2026년 3월 31일: **$22.6B**
+  - 2026년 6월 30일: **$26.7B**
+- 6월 30일 기준 건설/건물 개량/임차 관련 약정 **$34.6B**, 주로 데이터센터
 
-Sources:
+출처:
 - https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm
 - https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm
 
-### Official NVIDIA / Microsoft evidence
+### NVIDIA / Microsoft 공식 근거
 
-NVIDIA announced Microsoft deployments of more than **100,000 Blackwell Ultra GPUs in GB300 NVL72 systems** globally.
+NVIDIA는 Microsoft가 GB300 NVL72 시스템에 **Blackwell Ultra GPU 10만 개 이상**을 전 세계에 배치했다고 발표했다.
 
-Sources:
+출처:
 - https://blogs.nvidia.com/blog/nvidia-microsoft-ai-superfactories/
 - https://azure.microsoft.com/en-us/blog/microsoft-azure-delivers-the-first-large-scale-cluster-with-nvidia-gb300-nvl72-for-openai-workloads/
 
-### Analytical hypothesis
+### 분석적 가설
 
-Microsoft is the best current candidate for **D1**:
-- D1 Q1 revenue equivalent ~ **$17.1B**
-- D1 appears front-loaded in Q1 and then falls just below 10% in Q2
-- Microsoft's infrastructure additions and NVIDIA deployment scale are directionally compatible
-- Azure also carries large OpenAI-related demand
+Microsoft가 현재 **D1**의 최유력 후보다.
+- D1의 1분기 매출 환산액 ~ **$17.1B**
+- D1은 1분기에 몰렸다가 2분기에 10% 바로 아래로 떨어진다
+- Microsoft의 인프라 증설과 NVIDIA 배치 규모가 방향상 맞아떨어진다
+- Azure는 OpenAI 관련 수요도 크게 안고 있다
 
-Working confidence: **~45%**
+잠정 확신도: **~45%**
 
-Not SEC-confirmed.
+SEC 확인 사항 아님.
 
 ---
 
-## 6. Candidate: AWS
+## 6. 후보: AWS
 
-### Counterparty SEC evidence
+### 거래상대방 SEC 근거
 
-Amazon disclosed:
-- Q1 2026 cash capex: **$43.2B**
-- Q2 cash capex: **$53.1B**
-- H1 cash capex: **$96.3B**
-- majority of technology-infrastructure investment supports AWS
-- Q1 AWS PP&E net additions: **$41.516B**
-- Q1 consolidated PP&E additions: **$54.757B**
-- increase in PP&E acquired but not yet paid:
-  - Q1: **$9.920B**
-  - Q2 incremental: **$10.700B**
-  - H1: **$20.620B**
+Amazon 공시:
+- 2026년 1분기 현금 설비투자: **$43.2B**
+- 2분기 현금 설비투자: **$53.1B**
+- 상반기 현금 설비투자: **$96.3B**
+- 기술 인프라 투자 대부분이 AWS를 뒷받침
+- 1분기 AWS 유형자산 순증: **$41.516B**
+- 1분기 연결 유형자산 증가: **$54.757B**
+- 취득했으나 미지급된 유형자산 증가분:
+  - 1분기: **$9.920B**
+  - 2분기 증분: **$10.700B**
+  - 상반기: **$20.620B**
 
-Sources:
+출처:
 - https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm
 - https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
 
-### Official NVIDIA / AWS evidence
+### NVIDIA / AWS 공식 근거
 
-AWS announced plans to add more than **1 million NVIDIA GPUs starting in 2026**, followed by an additional **2 million Blackwell Ultra / Rubin / Rubin Ultra GPUs in 2027-2028**.
+AWS는 **2026년부터 NVIDIA GPU 100만 개 이상**을 추가하고, 이어 **2027-2028년에 Blackwell Ultra / Rubin / Rubin Ultra GPU 200만 개**를 더 들이겠다고 발표했다.
 
-Sources:
+출처:
 - https://investor.nvidia.com/news/press-release-details/2026/AWS-and-NVIDIA-to-Deliver-2-Million-Additional-GPUs-and-Next-Generation-Infrastructure-for-Agentic-and-Physical-AI/default.aspx
 - https://aws.amazon.com/nvidia/project-ceiba/
 
-### Analytical hypothesis
+### 분석적 가설
 
-AWS is the best current candidate for **D3**:
-- D3 is the most stable fingerprint: roughly $13.1B in Q1 → $15.4B in Q2
-- H1 concentration remains at 16%
-- AWS has the strongest official forward physical-deployment evidence among hyperscalers
+AWS가 현재 **D3**의 최유력 후보다.
+- D3은 가장 안정적인 지문이다. 1분기 약 $13.1B에서 2분기 $15.4B
+- 상반기 집중도가 16%로 유지된다
+- 하이퍼스케일러 중 향후 물리적 배치에 관한 공식 근거가 가장 강하다
 
-Working confidence: **~50%**
+잠정 확신도: **~50%**
 
-AWS also deploys Trainium, so NVIDIA is not its only accelerator path.
+다만 AWS는 Trainium도 배치하므로 NVIDIA가 유일한 가속기 경로는 아니다.
 
 ---
 
-## 7. Candidate: Meta
+## 7. 후보: Meta
 
-### Counterparty SEC evidence
+### 거래상대방 SEC 근거
 
-Meta disclosed:
-- Q1 PP&E purchases: **$19.0B**
-- Q2 capex including finance leases: **$31.08B**
-- H1 PP&E purchases: **$49.11B**
-- 2026 capex forecast: roughly **$130B-$145B**
-- unpaid PP&E:
-  - Mar. 31: **$16.040B**
-  - Jun. 30: **$19.502B**
-- servers/network assets:
-  - Dec. 2025: **$98.040B**
-  - Jun. 2026: **$119.683B**
-- construction in progress:
+Meta 공시:
+- 1분기 유형자산 매입: **$19.0B**
+- 금융리스 포함 2분기 설비투자: **$31.08B**
+- 상반기 유형자산 매입: **$49.11B**
+- 2026년 설비투자 전망: 약 **$130B-$145B**
+- 미지급 유형자산:
+  - 3월 31일: **$16.040B**
+  - 6월 30일: **$19.502B**
+- 서버/네트워크 자산:
+  - 2025년 12월: **$98.040B**
+  - 2026년 6월: **$119.683B**
+- 건설중인자산:
   - **$50.521B → $80.345B**
-- contractual commitments:
-  - Mar. 2026: **$237.67B**
-  - Jun. 2026: **$349.31B**
+- 계약상 약정:
+  - 2026년 3월: **$237.67B**
+  - 2026년 6월: **$349.31B**
 
-Sources:
+출처:
 - https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm
 - https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm
 
-### Official NVIDIA evidence
+### NVIDIA 공식 근거
 
-NVIDIA described a Meta partnership involving **millions of Blackwell and Rubin GPUs**, NVIDIA CPUs, and Spectrum-X.
+NVIDIA는 **Blackwell과 Rubin GPU 수백만 개**, NVIDIA CPU, Spectrum-X가 얽힌 Meta 협력을 설명했다.
 
-Source:
+출처:
 https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia
 
-### Why Meta is harder to map
+### Meta 대응이 더 어려운 이유
 
-Meta's economic NVIDIA exposure can be split across:
-- direct hardware procurement,
-- ODM procurement,
-- third-party clouds such as CoreWeave,
-- other AI-cloud arrangements,
-- custom silicon such as MTIA,
-- non-NVIDIA accelerators.
+Meta의 경제적 NVIDIA 익스포저는 여러 갈래로 쪼개질 수 있다.
+- 직접 하드웨어 조달
+- ODM 조달
+- CoreWeave 같은 제3자 클라우드
+- 기타 AI 클라우드 계약
+- MTIA 같은 자체 실리콘
+- NVIDIA 외 가속기
 
-Therefore Meta may be a massive **economic customer** without appearing as one clean direct-customer fingerprint.
+따라서 Meta는 거대한 **경제적 고객**이면서도 깔끔한 직접고객 지문 하나로 드러나지 않을 수 있다.
 
-D2 remains the most plausible slot, but current confidence is lower than for D1/Microsoft or D3/AWS.
+D2 자리가 여전히 가장 그럴듯하지만, 현재 확신도는 D1/Microsoft나 D3/AWS보다 낮다.
 
 ---
 
 ## 8. Alphabet / Google
 
-### SEC confirmed counterparty evidence
+### SEC 확인 거래상대방 근거
 
-Alphabet disclosed:
-- Q1 capex: **$35.7B**
-- H1 capex: **$80.6B**
-- implied Q2 capex: ~**$44.9B**
-- 2026 capex around **$180B**
+Alphabet 공시:
+- 1분기 설비투자: **$35.7B**
+- 상반기 설비투자: **$80.6B**
+- 추정 2분기 설비투자: ~**$44.9B**
+- 2026년 설비투자 약 **$180B**
 
-Sources:
+출처:
 - https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm
 - https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm
 
-Google clearly buys NVIDIA GPUs, but its heavy TPU usage lowers the probability that it explains one of the very largest NVIDIA direct-customer fingerprints.
+Google이 NVIDIA GPU를 사는 것은 분명하지만, TPU 사용 비중이 커서 NVIDIA 최상위 직접고객 지문 하나를 설명할 확률은 낮아진다.
 
 ---
 
 ## 9. Oracle
 
-### SEC / company evidence
+### SEC / 기업 근거
 
-Oracle disclosed:
-- first nine months FY26 capex: **$39.17B**
-- trailing-four-quarter capex: **$48.25B**
-- FY26 Q4 RPO: **$638B**, up 363% YoY
-- some AI contracts involved the customer prepaying Oracle for GPU purchases or supplying GPUs to Oracle
-- prepaid/customer-supplied hardware portions totaled roughly **$75B**
+Oracle 공시:
+- FY26 첫 9개월 설비투자: **$39.17B**
+- 최근 4개 분기 설비투자: **$48.25B**
+- FY26 4분기 잔여이행의무: **$638B**, 전년 대비 363% 증가
+- 일부 AI 계약에서는 고객이 GPU 구매 대금을 Oracle에 선지급하거나 GPU를 직접 공급했다
+- 선지급/고객 공급 하드웨어 부분 합계 약 **$75B**
 
-Sources:
+출처:
 - https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm
 - https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm
 
-### Interpretation
+### 해석
 
-Oracle can have huge NVIDIA **economic exposure** while the direct GPU invoice may sit with Oracle's customer or another procurement entity. That makes Oracle a weaker candidate for a single top NVIDIA direct-customer identity.
+Oracle은 NVIDIA에 대한 **경제적 익스포저**가 막대할 수 있지만, GPU 청구서는 Oracle의 고객이나 다른 조달 법인 앞으로 갈 수 있다. 그래서 Oracle은 NVIDIA 최상위 직접고객 정체 후보로는 약하다.
 
 ---
 
 ## 10. CoreWeave
 
-### SEC confirmed
+### SEC 확인
 
-CoreWeave states that all GPUs used in its platform are NVIDIA GPUs.
+CoreWeave는 플랫폼에 쓰는 GPU가 전부 NVIDIA GPU라고 밝힌다.
 
-Its 2025 supplier mix included three suppliers representing approximately **23%, 20%, and 17%** of purchases, with NVIDIA specifically identified at roughly **17%** in an earlier filing.
+2025년 공급업체 구성에는 매입의 약 **23%, 20%, 17%**를 차지하는 세 곳이 있었고, 이전 제출 서류에서 NVIDIA가 약 **17%**로 특정됐다.
 
-Sources:
+출처:
 - https://www.sec.gov/Archives/edgar/data/1769628/000176962826000191/crwv-20260422.htm
 - https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm
 - https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm
 
-### Interpretation
+### 해석
 
-CoreWeave is strategically important but its scale makes it unlikely to explain a NVIDIA direct-customer fingerprint worth roughly **$13B-$17B per quarter**.
+CoreWeave는 전략적으로 중요하지만, 규모상 분기당 약 **$13B-$17B**짜리 NVIDIA 직접고객 지문을 설명하기는 어렵다.
 
 ---
 
-## 11. ODM and procurement-route framework
+## 11. ODM 및 조달 경로 프레임
 
-The key mistake is to treat “who physically builds the server” as the same thing as “who NVIDIA recognizes as the customer.”
+가장 흔한 실수는 "누가 서버를 물리적으로 만드는가"를 "NVIDIA가 누구를 고객으로 인식하는가"와 같은 것으로 취급하는 것이다.
 
-Keep these four identities separate:
+다음 네 정체를 분리해서 봐야 한다.
 
-1. **NVIDIA invoice customer** — entity on the NVIDIA PO/invoice.
-2. **GPU economic owner** — entity ultimately funding the hardware.
-3. **ODM/system assembler** — Foxconn, Quanta, Wistron, Wiwynn, etc.
-4. **Compute consumer** — OpenAI, Anthropic, xAI, enterprise users, public sector, etc.
+1. **NVIDIA 청구 고객** — NVIDIA 발주서/청구서에 오른 법인.
+2. **GPU 경제적 소유자** — 최종적으로 하드웨어 비용을 대는 법인.
+3. **ODM/시스템 조립사** — Foxconn, Quanta, Wistron, Wiwynn 등.
+4. **컴퓨트 소비자** — OpenAI, Anthropic, xAI, 기업 사용자, 공공 부문 등.
 
-Example:
+예시:
 
-> NVIDIA GPU → Foxconn assembly → Microsoft datacenter → OpenAI workload
+> NVIDIA GPU → Foxconn 조립 → Microsoft 데이터센터 → OpenAI 워크로드
 
-Possible booking outcomes:
-- Microsoft owns the NVIDIA PO → US direct customer.
-- Foxconn owns the NVIDIA PO → Taiwan direct customer.
-- another integrator owns the PO → geography follows that integrator's HQ.
+가능한 계상 결과:
+- Microsoft가 NVIDIA 발주서를 보유하면 미국 직접고객.
+- Foxconn이 NVIDIA 발주서를 보유하면 대만 직접고객.
+- 다른 통합업체가 발주서를 보유하면 지역은 그 업체 본사를 따른다.
 
-This framework explains why economic demand and NVIDIA's reported direct-customer geography can diverge sharply.
+이 프레임이 경제적 수요와 NVIDIA가 보고하는 직접고객 지역이 크게 갈릴 수 있는 이유를 설명한다.
 
-### Official NVIDIA supplier / builder evidence
+### NVIDIA 공급사 / 제조사 공식 근거
 
-NVIDIA has disclosed or officially referenced:
-- foundries: TSMC, Samsung
-- memory: SK hynix, Micron, Samsung
-- contract manufacturing / integration relationships including Hon Hai/Foxconn, Wistron, Fabrinet
-- system-builder ecosystem including Dell, HPE, Lenovo, Supermicro, ASUS, Foxconn, GIGABYTE, Pegatron, QCT, Wistron, Wiwynn, and others
+NVIDIA가 공시했거나 공식적으로 언급한 내용:
+- 파운드리: TSMC, Samsung
+- 메모리: SK hynix, Micron, Samsung
+- 위탁생산/통합 관계: Hon Hai/Foxconn, Wistron, Fabrinet 등
+- 시스템 제조 생태계: Dell, HPE, Lenovo, Supermicro, ASUS, Foxconn, GIGABYTE, Pegatron, QCT, Wistron, Wiwynn 등
 
-Sources:
+출처:
 - https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm
 - https://nvidianews.nvidia.com/news/dsx-infrastructure-ai-factory
 - https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai
@@ -417,44 +417,44 @@ Sources:
 
 ---
 
-## 12. Working ranking
+## 12. 잠정 순위
 
-| Candidate | Direct-customer fit | Evidence | Current view |
+| 후보 | 직접고객 적합도 | 근거 | 현재 판단 |
 |---|---|---|---|
-| Microsoft | High | large PP&E additions, >100k GB300 deployment, Azure/OpenAI demand | Best fit for D1, ~45% |
-| AWS | High | largest forward NVIDIA GPU deployment evidence, massive AWS infra spend | Best fit for D3, ~50% |
-| Meta | Medium-High economic / Medium direct | enormous capex + millions of GPUs, but route fragmented | plausible D2, unresolved |
-| Google | Medium | huge capex, but TPU-heavy | lower top-direct probability |
-| Oracle | Medium economic / Low-Medium direct | huge AI infra commitments, but customer-prepaid/supplied GPUs | weak direct mapping |
-| CoreWeave | High NVIDIA dependency / lower scale | 100% NVIDIA GPU fleet | unlikely $13B-$17B/qtr direct customer |
+| Microsoft | 높음 | 대규모 유형자산 증설, GB300 10만 개 이상 배치, Azure/OpenAI 수요 | D1 최적, ~45% |
+| AWS | 높음 | 향후 NVIDIA GPU 배치 근거가 가장 큼, AWS 인프라 지출 막대 | D3 최적, ~50% |
+| Meta | 경제적 중상 / 직접 중간 | 설비투자 막대 + GPU 수백만 개, 다만 경로가 분산 | D2 유력하나 미확정 |
+| Google | 중간 | 설비투자 크지만 TPU 비중 높음 | 최상위 직접고객 확률 낮음 |
+| Oracle | 경제적 중간 / 직접 중하 | AI 인프라 약정 막대하나 고객 선지급/공급 GPU | 직접 대응 약함 |
+| CoreWeave | NVIDIA 의존도 높음 / 규모 작음 | GPU 전량 NVIDIA | 분기 $13B-$17B 직접고객으로는 어려움 |
 
 ---
 
-## 13. What is not proven
+## 13. 입증되지 않은 것
 
-The following should **not** be presented as confirmed facts:
+다음은 확인된 사실로 제시하면 **안 된다**.
 
-- “Customer A = Microsoft” or any persistent A/B/C mapping.
-- “D3 is definitely AWS.”
-- “The Q2 16% customer is AWS.”
-- “OpenAI is NVIDIA's named Q2 AI research/deployment customer.”
-- “Taiwan revenue equals Foxconn/Quanta demand.”
-- “Meta's total AI capex flows directly to NVIDIA.”
+- "Customer A = Microsoft" 또는 기간을 넘는 A/B/C 고정 대응.
+- "D3은 확실히 AWS다."
+- "2분기 16% 고객은 AWS다."
+- "OpenAI가 NVIDIA가 지목한 2분기 AI 연구/배치 고객이다."
+- "대만 매출은 Foxconn/Quanta 수요와 같다."
+- "Meta의 AI 설비투자 전액이 NVIDIA로 흘러간다."
 
-These remain hypotheses until one of the parties names the counterparty, a filing exposes a sufficient concentration relationship, or another hard disclosure closes the loop.
+당사자 중 한쪽이 상대를 지목하거나, 제출 서류가 충분한 집중도 관계를 드러내거나, 다른 확실한 공시가 고리를 닫기 전까지 이들은 가설로 남는다.
 
 ---
 
-## 14. Bottom line
+## 14. 결론
 
-The strongest current reconstruction is:
+현재 가장 단단한 재구성은 다음과 같다.
 
-- **D1**: front-loaded Q1 customer, 21% → implied Q2 9.9%; **Microsoft is the leading candidate**.
-- **D2**: 17% → implied Q2 9.6%; **Meta or another large US CSP/procurement entity**, unresolved.
-- **D3**: steady 16% in both quarters; **AWS is the leading candidate**.
+- **D1**: 1분기에 몰린 고객, 21% → 추정 2분기 9.9%. **Microsoft가 최유력 후보**.
+- **D2**: 17% → 추정 2분기 9.6%. **Meta 또는 다른 대형 미국 CSP/조달 법인**, 미확정.
+- **D3**: 두 분기 모두 16% 유지. **AWS가 최유력 후보**.
 
-The highest-confidence conclusion is not the identity mapping itself. It is the **method**:
+확신도가 가장 높은 결론은 정체 대응 자체가 아니라 **방법**이다.
 
-> combine NVIDIA concentration math + geography constraints + counterparty capex / PP&E / unpaid equipment + official GPU deployment disclosures + procurement-route structure.
+> NVIDIA 집중도 계산 + 지역 제약 + 거래상대방 설비투자/유형자산/미지급 장비 + 공식 GPU 배치 공시 + 조달 경로 구조를 결합한다.
 
-That produces a useful customer map while preserving a strict line between **SEC fact** and **analytical hypothesis**.
+그러면 **SEC 사실**과 **분석적 가설** 사이의 선을 엄격히 지키면서도 쓸 만한 고객 지도를 얻을 수 있다.
