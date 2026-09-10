@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="768" viewBox="0 0 680 768" role="img">
+<title>TSMC 상세 밸류체인</title>
+<desc>차이스에서 장비·소재 공급사, TSMC, 고객사, 최종 수요처로 이어지는 구조. 각 공급사와 고객사 비중 수치 포함.</desc>
+<style>
+  .t{font:400 14px 'Malgun Gothic',AppleGothic,-apple-system,sans-serif;fill:#2c2c2a}
+  .s{font:400 12px 'Malgun Gothic',AppleGothic,-apple-system,sans-serif;fill:#5f5e5a}
+  .bt{font:500 14px 'Malgun Gothic',AppleGothic,-apple-system,sans-serif;text-anchor:middle;dominant-baseline:central}
+  .bs{font:400 12px 'Malgun Gothic',AppleGothic,-apple-system,sans-serif;text-anchor:middle;dominant-baseline:central}
+  .lbl{font:400 12px 'Malgun Gothic',AppleGothic,-apple-system,sans-serif;dominant-baseline:central;fill:#5f5e5a}
+  .sup{fill:#E1F5EE;stroke:#0F6E56;stroke-width:1}
+  .sup-t{fill:#04342C} .sup-s{fill:#0F6E56}
+  .tsmc{fill:#EEEDFE;stroke:#534AB7;stroke-width:1}
+  .tsmc-t{fill:#26215C} .tsmc-s{fill:#534AB7}
+  .cus{fill:#FAECE7;stroke:#993C1D;stroke-width:1}
+  .cus-t{fill:#4A1B0C} .cus-s{fill:#993C1D}
+  .end{fill:#ffffff;stroke:#b4b2a9;stroke-width:1}
+  .end-t{fill:#2c2c2a} .end-s{fill:#5f5e5a}
+  .a{stroke:#888780;stroke-width:1.5;fill:none;marker-end:url(#at1)}
+  .l{stroke:#888780;stroke-width:1.5;fill:none}
+  @media (prefers-color-scheme: dark){
+    svg{background:#1a1915}
+    .t,.lbl,.s{fill:#b4b2a9}
+    .sup{fill:#085041;stroke:#9FE1CB} .sup-t{fill:#9FE1CB} .sup-s{fill:#5DCAA5}
+    .tsmc{fill:#3C3489;stroke:#CECBF6} .tsmc-t{fill:#CECBF6} .tsmc-s{fill:#AFA9EC}
+    .cus{fill:#712B13;stroke:#F5C4B3} .cus-t{fill:#F5C4B3} .cus-s{fill:#F0997B}
+    .end{fill:#26251f;stroke:#5f5e5a} .end-t{fill:#e8e6dd} .end-s{fill:#b4b2a9}
+  }
+</style>
+<defs><marker id="at1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="680" height="768" fill="none"/>
+<rect x="40" y="76" rx="8" width="115" height="56" class="sup"/>
+<text x="97.5" y="96" class="bt sup-t">차이스</text>
+<text x="97.5" y="115" class="bs sup-s">ASML 원가 28%</text>
+<rect x="40" y="146" rx="8" width="129" height="56" class="sup"/>
+<text x="104.5" y="166" class="bt sup-t">ASML EUV 100%</text>
+<text x="104.5" y="185" class="bs sup-s">TSMC 원가 15.2%</text>
+<rect x="40" y="216" rx="8" width="129" height="56" class="sup"/>
+<text x="104.5" y="236" class="bt sup-t">AMAT 증착 54%</text>
+<text x="104.5" y="255" class="bs sup-s">TSMC 원가 15.1%</text>
+<rect x="40" y="286" rx="8" width="136" height="56" class="sup"/>
+<text x="108" y="306" class="bt sup-t">램리서치 44.5%</text>
+<text x="108" y="325" class="bs sup-s">TSMC 원가 8.4%</text>
+<rect x="40" y="356" rx="8" width="122" height="56" class="sup"/>
+<text x="101" y="376" class="bt sup-t">도쿄일렉트론</text>
+<text x="101" y="395" class="bs sup-s">TSMC 원가 5.4%</text>
+<rect x="40" y="426" rx="8" width="120" height="56" class="sup"/>
+<text x="100" y="446" class="bt sup-t">KLA · 스크린</text>
+<text x="100" y="465" class="bs sup-s">검사 · 세정</text>
+<rect x="40" y="496" rx="8" width="120" height="56" class="sup"/>
+<text x="100" y="516" class="bt sup-t">레이저텍 50%</text>
+<text x="100" y="535" class="bs sup-s">레티클 검사</text>
+<rect x="40" y="566" rx="8" width="120" height="56" class="sup"/>
+<text x="100" y="586" class="bt sup-t">웨이퍼 6개사</text>
+<text x="100" y="605" class="bs sup-s">신에츠 등 96%</text>
+<rect x="40" y="636" rx="8" width="128" height="56" class="sup"/>
+<text x="104" y="656" class="bt sup-t">소재 · 케미컬</text>
+<text x="104" y="675" class="bs sup-s">엔테그리스 16%</text>
+<rect x="200" y="286" rx="8" width="101" height="56" class="tsmc"/>
+<text x="250.5" y="306" class="bt tsmc-t">TSMC 26Q2</text>
+<text x="250.5" y="325" class="bs tsmc-s">매출 $40.2B</text>
+<rect x="200" y="356" rx="8" width="108" height="56" class="tsmc"/>
+<text x="254" y="376" class="bt tsmc-t">HPC 66%</text>
+<text x="254" y="395" class="bs tsmc-s">선단 ≤N7 77%</text>
+<rect x="200" y="426" rx="8" width="88" height="56" class="tsmc"/>
+<text x="244" y="446" class="bt tsmc-t">설비투자</text>
+<text x="244" y="465" class="bs tsmc-s">$60~64B</text>
+<rect x="350" y="76" rx="8" width="120" height="56" class="cus"/>
+<text x="410" y="96" class="bt cus-t">NVIDIA 19.0%</text>
+<text x="410" y="115" class="bs cus-s">최대 고객</text>
+<rect x="350" y="146" rx="8" width="101" height="56" class="cus"/>
+<text x="400.5" y="166" class="bt cus-t">브로드컴</text>
+<text x="400.5" y="185" class="bs cus-s">커스텀 ASIC</text>
+<rect x="350" y="216" rx="8" width="122" height="56" class="cus"/>
+<text x="411" y="236" class="bt cus-t">마벨</text>
+<text x="411" y="255" class="bs cus-s">TSMC 단독 공급</text>
+<rect x="350" y="286" rx="8" width="101" height="56" class="cus"/>
+<text x="400.5" y="306" class="bt cus-t">AWS</text>
+<text x="400.5" y="325" class="bs cus-s">Trainium 등</text>
+<rect x="350" y="356" rx="8" width="129" height="56" class="cus"/>
+<text x="414.5" y="376" class="bt cus-t">AMD ~5.2%</text>
+<text x="414.5" y="395" class="bs cus-s">EPYC · Instinct</text>
+<rect x="350" y="426" rx="8" width="108" height="56" class="cus"/>
+<text x="404" y="446" class="bt cus-t">애플 17.0%</text>
+<text x="404" y="465" class="bs cus-s">A · M 시리즈</text>
+<rect x="350" y="496" rx="8" width="104" height="56" class="cus"/>
+<text x="402" y="516" class="bt cus-t">퀄컴 ~5.1%</text>
+<text x="402" y="535" class="bs cus-s">Snapdragon</text>
+<rect x="350" y="566" rx="8" width="94" height="56" class="cus"/>
+<text x="397" y="586" class="bt cus-t">미디어텍</text>
+<text x="397" y="605" class="bs cus-s">모바일 SoC</text>
+<rect x="350" y="636" rx="8" width="115" height="56" class="cus"/>
+<text x="407.5" y="656" class="bt cus-t">인텔</text>
+<text x="407.5" y="675" class="bs cus-s">외부 파운드리</text>
+<rect x="500" y="146" rx="8" width="136" height="56" class="end"/>
+<text x="568" y="166" class="bt end-t">하이퍼스케일러</text>
+<text x="568" y="185" class="bs end-s">MS·메타·AWS</text>
+<rect x="500" y="286" rx="8" width="112" height="56" class="end"/>
+<text x="556" y="306" class="bt end-t">기업 · 서버</text>
+<text x="556" y="325" class="bs end-s">HP · 소니 등</text>
+<rect x="500" y="426" rx="8" width="115" height="56" class="end"/>
+<text x="557.5" y="446" class="bt end-t">기기 OEM</text>
+<text x="557.5" y="465" class="bs end-s">삼성 · 샤오미</text>
+<rect x="500" y="566" rx="8" width="115" height="56" class="end"/>
+<text x="557.5" y="586" class="bt end-t">자체 공정</text>
+<text x="557.5" y="605" class="bs end-s">파운드리 병행</text>
+<path d="M155 104 L190 104" class="l"/>
+<path d="M169 174 L190 174" class="l"/>
+<path d="M169 244 L190 244" class="l"/>
+<path d="M176 314 L190 314" class="l"/>
+<path d="M162 384 L190 384" class="l"/>
+<path d="M160 454 L190 454" class="l"/>
+<path d="M160 524 L190 524" class="l"/>
+<path d="M160 594 L190 594" class="l"/>
+<path d="M168 664 L190 664" class="l"/>
+<path d="M190 104 L190 664" class="l"/>
+<path d="M190 314 L200 314" class="a"/>
+<path d="M190 384 L200 384" class="a"/>
+<path d="M190 454 L200 454" class="a"/>
+<path d="M301 314 L340 314" class="l"/>
+<path d="M308 384 L340 384" class="l"/>
+<path d="M288 454 L340 454" class="l"/>
+<path d="M340 314 L340 454" class="l"/>
+<path d="M340 104 L350 104" class="a"/>
+<path d="M340 174 L350 174" class="a"/>
+<path d="M340 244 L350 244" class="a"/>
+<path d="M340 314 L350 314" class="a"/>
+<path d="M340 384 L350 384" class="a"/>
+<path d="M340 454 L350 454" class="a"/>
+<path d="M340 524 L350 524" class="a"/>
+<path d="M340 594 L350 594" class="a"/>
+<path d="M340 664 L350 664" class="a"/>
+<path d="M470 104 L490 104" class="l"/>
+<path d="M451 174 L490 174" class="l"/>
+<path d="M472 244 L490 244" class="l"/>
+<path d="M451 314 L490 314" class="l"/>
+<path d="M479 384 L490 384" class="l"/>
+<path d="M458 454 L490 454" class="l"/>
+<path d="M454 524 L490 524" class="l"/>
+<path d="M444 594 L490 594" class="l"/>
+<path d="M465 664 L490 664" class="l"/>
+<path d="M490 104 L490 664" class="l"/>
+<path d="M490 174 L500 174" class="a"/>
+<path d="M490 314 L500 314" class="a"/>
+<path d="M490 454 L500 454" class="a"/>
+<path d="M490 594 L500 594" class="a"/>
+<line x1="40" y1="716" x2="640" y2="716" stroke="#cbd5e1" stroke-width="1"/>
+<rect x="40" y="732" width="12" height="12" rx="2" class="sup"/>
+<text x="58" y="738" class="lbl">장비 · 소재 공급사</text>
+<rect x="210" y="732" width="12" height="12" rx="2" class="tsmc"/>
+<text x="228" y="738" class="lbl">TSMC</text>
+<rect x="300" y="732" width="12" height="12" rx="2" class="cus"/>
+<text x="318" y="738" class="lbl">고객사</text>
+<rect x="400" y="732" width="12" height="12" rx="2" class="end"/>
+<text x="418" y="738" class="lbl">최종 수요처</text>
+<text x="40" y="762" class="lbl">원가·매출 비중은 추정 데이터셋, 공정 점유율은 2023 글로벌 시장 기준.</text>
+</svg>
